@@ -1,0 +1,213 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Roadside, Studio, Design, Web, Icons, Logos" />
+		<meta name="description" content="Roadside Studio is a web design agency that makes beautiful websites!" />
+		<meta name="author" content="Felix Boyeaux" />
+		<meta name="robots" content="all" />
+		
+		<link rel="stylesheet" media="screen" type="text/css" title="Style" href="css/style.css" />
+		<!--[if IE 7]>
+			<link rel="stylesheet" media="screen" type="text/css" title="Style" href="css/ie7.css" />
+		<![endif]-->
+		
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/cycle.js"></script>
+		<script type="text/javascript" src="js/slideshow.js"></script>
+		<script type="text/javascript" src="js/cufon.js"></script>
+		<script type="text/javascript" src="js/myriadpro.font.js"></script>
+		<script type="text/javascript">
+			Cufon.replace('h1, h2, h3, h5');
+		</script>
+		
+		<title>Roadside Studio</title>
+	</head>
+	<body>
+		<!-- STATUS BAR -->
+		<div id="status-bar">
+			<div id="status-bar-content">
+				<form action="#search" method="post" id="search-form">
+					<p>
+						<input type="text" name="query" value="Search" />
+						<input type="submit" name="submit" value="Search!" />
+					</p>
+				</form>
+				<div id="status-bar-commands">
+					<p id="welcome">Welcome, Guest</p>
+					<p id="action-bar">
+						<a href="#login" title="Login">Login</a>
+						<a href="#sitemap" title="Sitemap">Sitemap</a>
+						<a href="#license" title="License">License</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- HEADER -->
+		<div id="header">
+			<div id="logo">
+				<h1><a href="#home" title="Home Page">Roadside</a></h1>
+				<h2>Studio</h2>
+			</div>
+		</div>
+		<!-- CONTENT -->
+		<div id="content-top-shadow"></div>
+		<div id="content">
+			<!-- TABS -->
+			<ul id="tabs">
+				<li id="previous">
+					<a href="#previous" title="Previous">&lt;</a>
+				</li>
+				<li id="home" class="current">
+					<a href="#home" title="Home">Home</a>
+				</li>
+				<li id="portfolio">
+					<a href="#portfolio" title="Portfolio">Portfolio</a>
+				</li>
+				<li id="about">
+					<a href="#about" title="About">About</a>
+				</li>
+				<li id="contact">
+					<a href="#contact" title="Contact">Contact</a>
+				</li>
+				<li id="next">
+					<a href="#next" title="Next">&gt;</a>
+				</li>
+			</ul>
+			<!-- PAGE WRAPPER -->
+			<div id="page-wrapper">
+				<!-- SLIDESHOW -->
+				<div id="slideshow">
+					<div id="slides">
+						<a href="#portfolio.work1" title="See details" class="thumb default-slide">
+							<img src="./img/slideshow/1.png" alt="Flex Engine Web Design" class="slideshow-image" />
+						</a>
+						<a href="#portfolio.work2" title="See details" class="thumb">
+							<img src="./img/slideshow/2.png" alt="Concept Labs Portfolio" class="slideshow-image" />
+						</a>
+						<a href="#portfolio.work3" title="See details" class="thumb">
+							<img src="./img/slideshow/3.png" alt="Everlast Studio" class="slideshow-image" />
+						</a>
+					</div>
+					<div id="slideshow-commands">
+						<a href="#previous" title="Previous" id="previous-slide">&lt;</a>
+						<a href="#next" title="Next" id="next-slide">&gt;</a>
+						<h4>
+							<a href="#portfolio.work1" title="See details" id="slide-title">
+								Flex Engine Web Design
+							</a>
+						</h4>
+					</div>
+				</div>
+				<!-- MESSAGE -->
+				<div id="message">
+					<h3>We build great websites!</h3>
+					<p>
+						Curabitur nec sem in risus adipiscing feugiat. Etiam elementum malesuada purus.
+						Quisque nec mi eu mauris ornare aliquam. Praesent adipiscing, 
+						metus sed luctus condimentum, quam turpis interdum tortor, 
+						in dignissim magna urna tempor odio. Integer porttitor. Nam dolor urna,
+						ultricies vitae, porttitor ut, dignissim vitae, elit.
+					</p>
+					<p id="contact-info">
+						<span id="phone">+33 1 23 45 67 89</span>
+						<span id="address">
+							34, Avenue des Champs-<br />
+							Elys&eacute;es, 75006, Paris,<br />
+							France
+						</span>
+					</p>
+				</div>
+			</div>
+			<!-- BLOG MODULE -->
+			<div class="module" id="blog">
+				<h4 class="module-header-bar">Latest entries from the blog</h4>
+				<div class="blog-entry">
+					<h5><a href="#blogentry1" title="Vivamus sed risus">Vivamus sed risus</a></h5>
+					<p class="meta">By Jonathan Davidson - 05 / 08 / 09</p>
+					<blockquote class="content">
+						<p>
+							Vivamus sed risus quis felis sagittis cursus. Duis blandit tristique turpis. Nulla feugiat vehicula metus.
+						</p>
+					</blockquote>
+				</div>
+				<div class="blog-entry">
+					<h5><a href="#blogentry2" title="Pellentesque pulvinar">Pellentesque pulvinar</a></h5>
+					<p class="meta">By The Team - 05 / 01 / 09</p>
+					<blockquote class="content">
+						<p>
+							Pellentesque pulvinar dolor nec orci. Pellentesque scelerisque elit.
+						</p>
+					</blockquote>
+				</div>
+				<div class="blog-entry">
+					<h5><a href="#blogentry3" title="Cras in nibh">Cras in nibh</a></h5>
+					<p class="meta">By Nicholas Denman - 05 / 01 / 09</p>
+					<blockquote class="content">
+						<p>
+							Quisque dapibus, justo a bibendum pellentesque, tellus felis cursus libero, posuere sodales diam ipsum in lorem.
+						</p>
+					</blockquote>
+				</div>
+				<p id="read-more-wrapper">
+					<a href="#blog" title="Read More">
+						Read More
+					</a>
+				</p>
+			</div>
+			<!-- TWITTER MODULE -->
+			<div class="module" id="twitter">
+				<h4 class="module-header-bar">Follow the Roadside Team on Twitter</h4>
+				<div class="tweet">
+					<img src="img/team/1.png" alt="Jonathan Davidson" />
+					<h5><a href="#@JonathanDavidson" title="Jonathan Davidson">Jonathan Davidson</a></h5>
+					<blockquote>
+						<p>
+							Proin et libero. Curabitur molestie mauris eu massa.
+						</p>
+					</blockquote>
+				</div>
+				<div class="tweet">
+					<img src="img/team/2.png" alt="Nicholas Denman" />
+					<h5><a href="#@NicholasDenman" title="Nicholas Denman">Nicholas Denman</a></h5>
+					<blockquote>
+						<p>
+							Etiam felis ligula.
+						</p>
+					</blockquote>
+				</div>
+				<div class="tweet">
+					<img src="img/team/3.png" alt="Jessica Marshall" />
+					<h5><a href="#@JessicaMarshall" title="JessicaMarshall">Jessica Marshall</a></h5>
+					<blockquote>
+						<p>
+							Pellentesque est massa, posuere eu.
+						</p>
+					</blockquote>
+				</div>
+				<div class="tweet">
+					<img src="img/team/4.png" alt="Ann De Wever" />
+					<h5><a href="#@AnnDeWever" title="Ann De Wever">Ann De Wever</a></h5>
+					<blockquote>
+						<p>
+							Nulla facilisi. Nam lacinia tristique ante.
+						</p>
+					</blockquote>
+				</div>
+				<p id="get-tweets-wrapper">
+					<a href="#twitter">
+						Get More Tweets!
+					</a>
+				</p>
+			</div>
+		</div>
+		<div id="content-bottom-shadow"></div>
+		<div id="footer">
+			<div id="footer-image"></div>
+			<p id="footer-text">
+				Copyright &copy; 2009 Roadside Studio<br />
+				All Rights Reserved
+			</p>
+		</div>
+	</body>
+</html>
